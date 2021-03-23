@@ -3,7 +3,26 @@ const fs = require('fs');
 const path = require('path');
 
 const server = http.createServer((req, res) => {
-  const filePath = path.join(__dirname, 'public', req.url === '/' ? 'index.html' : req.url);
+  let filePath = path.join(__dirname, 'public', req.url === '/' ? 'index.html' : req.url);
+  let contentType = 'text/html';
+  const ext = path.extname(filePath);
+  switch(ext) {
+    case '.css': {
+      contentType = 'text/css';
+      break;
+    }
+    case '.js': {
+      contentType = 'text/javascript';
+      break;
+    }
+    default: {
+      contentType = 'text/html';
+    }
+  }
+  if(!ext) {
+    filePath += '.html'
+  }
+
   fs.readFile(filePath, (err, data) => {
     if (err) {
       fs.readFile(path.join(__dirname, 'public', 'error.html'), (err, data) => {
@@ -20,13 +39,15 @@ const server = http.createServer((req, res) => {
       })
     } else {
       res.writeHead(200, {
-        'Content-Type': 'text/html'
+        'Content-Type': contentType
       });
       res.end(data)
     }
   })
 });
 
-server.listen(3000, () => {
-  console.log('server has been started')
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, () => {
+  console.log(`Server has been started on ${PORT}... `)
 })
