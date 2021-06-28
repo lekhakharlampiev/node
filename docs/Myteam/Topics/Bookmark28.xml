@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.461+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как сделать групповой звонок?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как сделать групповой звонок?</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:10px; background-color:#ffffff;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#172b4d;" translate="true">Групповой звонок можно выполнить одним из способов:</text></para>
+    <para styleclass="Normal" style="margin-top:10px; background-color:#ffffff;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#172b4d;" translate="true">1. В чате группы нажмите на иконку с изображением телефонной трубки и выберите </text><text styleclass="Normal" style="font-family:Arial; font-size:10pt; font-weight:bold; color:#172b4d;" translate="true">Аудиозвонок</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#172b4d;" translate="true"> или </text><text styleclass="Normal" style="font-family:Arial; font-size:10pt; font-weight:bold; color:#172b4d;" translate="true">Видеозвонок</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#172b4d;" translate="true">. Откроется окно </text><text styleclass="Normal" style="font-family:Arial; font-size:10pt; font-weight:bold; color:#172b4d;" translate="true">Начать групповой звонок </text><text styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#172b4d;" translate="true">— снимите отметку у тех участников группы, которых не нужно вызывать. Затем нажмите кнопку </text><text styleclass="Normal" style="font-family:Arial; font-size:10pt; font-weight:bold; color:#172b4d;" translate="true">Позвонить</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#172b4d;" translate="true">.</text></para>
+    <para styleclass="Normal" style="margin-top:10px; background-color:#ffffff;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt; color:#172b4d;" translate="true">2. Сначала созвонитесь с одним коллегой, затем добавьте в звонок остальных участников.</text></para>
+  </body>
+</topic>

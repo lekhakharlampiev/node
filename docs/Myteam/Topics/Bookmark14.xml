@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.328+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Почему в списке контактов отображаются не все коллеги?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Почему в списке контактов отображаются не все коллеги?</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Коллега автоматически добавляется в список контактов после того, как пользователь начнет с ним переписку. Любого сотрудника компании можно найти через поиск: </text></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">по частичному совпадению имени, фамилии;</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">по полному совпадению адреса почты. </text></li>
+    </list>
+  </body>
+</topic>

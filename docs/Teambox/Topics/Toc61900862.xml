@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-06-25T15:01:49.468+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Требования к ПО и ОС на сервере</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Требования к ПО и ОС на сервере</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:7px; margin-bottom:7px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">По возможности на сервере должна быть установлена ОС с минимальной конфигурацией инсталляции (некоторые дистрибутивы предоставляют такую возможность). Кроме того:</text></para>
+    <list id="6" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">Должно быть установлено ПО D</text><text styleclass="HTML Code" style="font-family:Arial;" translate="true">ocker</text><text styleclass="Normal" style="font-family:Arial;" translate="true"> не ниже </text><text styleclass="HTML Code" style="font-family:Arial;" translate="true">18.09</text><text styleclass="Normal" style="font-family:Arial;" translate="true">.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">Должно быть установлено средство Docker Compose последней стабильной версии (рекомендуется устанавливать с сайта </text><link displaytype="text" defaultstyle="true" type="weblink" href="https://docs.docker.com/compose/install/" styleclass="Hyperlink" style="font-family:Arial;" translate="true">https://docs.docker.com/compose/install/</link><text styleclass="Normal" style="font-family:Arial;" translate="true">)</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">Должен быть отключен файл подкачки SWAP.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">Минимальная полоса пропускания сети — &#160;</text><text styleclass="HTML Code" style="font-family:Arial;" translate="true">1 Gbps</text><text styleclass="Normal" style="font-family:Arial;" translate="true">.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">Межсетевой экран должен быть отключен или он должен быть настроен на пропуск следующего трафика: </text></li>
+      <list id="6" level="1" type="ul" listtype="bullet" formatstring="&#111;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:96px; font-family:&apos;Courier New&apos;; font-size:10pt; color:#000000;">
+        <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:96px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">22/TCP (входящий);</text></li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:96px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">80/TCP (входящий);</text></li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:96px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">443/TCP (входящий);</text></li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:96px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">123/UDP (исходящий);</text></li>
+        <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:96px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">53/UDP 53/TCP (входящий/исходящий).</text></li>
+      </list>
+    </list>
+    <list id="7" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List Paragraph" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:47px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <list id="7" level="1" type="ul" listtype="bullet" formatstring="&#111;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List Paragraph" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:47px; font-family:&apos;Courier New&apos;; font-size:10pt; color:#000000;">
+        <list id="7" level="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List Paragraph" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:47px; font-family:Symbol; font-size:10pt; color:#000000;">
+          <li styleclass="List Paragraph" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:47px;"><text styleclass="List Paragraph" style="font-family:Arial;" translate="true">Необходимый набор утилит: </text><text styleclass="List Paragraph" style="font-family:&apos;Courier New&apos;;" translate="true">tar, curl, bc, envsubst, tee, nc</text><text styleclass="List Paragraph" style="font-family:Arial;" translate="true"> (если какой-либо утилиты нет, установка прервется, и установщик сообщит об отсутствии той или иной утилиты).</text></li>
+          <li styleclass="List Paragraph" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:47px;"><text styleclass="List Paragraph" style="font-family:Arial;" translate="true">Пользователь должен иметь возможность запускать </text><text styleclass="List Paragraph" style="font-family:&apos;Courier New&apos;;" translate="true">sudo </text><text styleclass="List Paragraph" style="font-family:Arial;" translate="true">без пароля.</text></li>
+        </list>
+      </list>
+    </list>
+  </body>
+</topic>

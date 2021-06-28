@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.343+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как вернуть в список контактов заблокированного пользователя?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как вернуть в список контактов заблокированного пользователя?</text></para>
+    </header>
+    <list id="5" type="ol" listtype="decimal" formatstring="&#37;&#115;&#46;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:&apos;Times New Roman&apos;; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Откройте </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Настройки</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true"> → </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Приватность</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true"> → </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Список игнорируемых</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">. </text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Нажмите на крестик, чтобы исключить нужного пользователя из списка игнорируемых.</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

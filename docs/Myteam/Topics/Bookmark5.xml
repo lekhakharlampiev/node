@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.209+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Что делать, если одноразовый пароль не пришел?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Что делать, если одноразовый пароль не пришел?</text></para>
+    </header>
+    <list id="12" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Убедитесь в работоспособности почтового клиента. </text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Обновите страницу (F5), если пользуетесь почтой через браузер.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Проверьте папку «Спам» в интерфейсе той почты, в которой заведен ящик. Например, если пользователь использует почту @mail.ru, проверяйте в интерфейсе </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://Mail.ru" styleclass="Hyperlink" style="font-family:Arial; font-size:10pt;" translate="true">Mail.ru</link><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">.</text></li>
+    </list>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Если вы уверены, что почтовый ящик работает и пользователь не мог пропустить письмо с одноразовым паролем, обратитесь в службу поддержки. Обязательно укажите корпоративный адрес почты и приложите файлы логов с того устройства, на котором была попытка входа.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

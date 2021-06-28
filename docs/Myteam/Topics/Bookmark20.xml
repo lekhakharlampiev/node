@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.370+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как найти чат, если он был скрыт из списка чатов?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как найти чат, если он был скрыт из списка чатов?</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Воспользуйтесь поиском — чат можно найти по его названию или ключевым словам, которые использовались в нем. Также чат появится в разделе </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Чаты</text><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">, если в нем появится новое сообщение.</text></para>
+  </body>
+</topic>

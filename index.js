@@ -1,53 +1,85 @@
-const http  = require('http');
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const fsPromises = fs.promises;
+const path = require("path");
+const convert = require("xml-js");
+const inspect = require("util").inspect;
+var glob = require("glob");
 
-const server = http.createServer((req, res) => {
-  let filePath = path.join(__dirname, 'public', req.url === '/' ? 'index.html' : req.url);
-  let contentType = 'text/html';
-  const ext = path.extname(filePath);
-  switch(ext) {
-    case '.css': {
-      contentType = 'text/css';
-      break;
-    }
-    case '.js': {
-      contentType = 'text/javascript';
-      break;
-    }
-    default: {
-      contentType = 'text/html';
-    }
+const DOCS_META = [
+  {
+    dir: 'Myteam',
+    title: 'Myteam',
+    field: 'my_team',
+  },
+  {
+    dir: 'Teambox',
+    title: 'Teambox',
+    field: 'team_box',
   }
-  if(!ext) {
-    filePath += '.html'
+];
+
+const generateSectionData = async (sectionDirName) => {
+  const sectionData = {
+    maps: [],
+    topics: [],
   }
 
-  fs.readFile(filePath, (err, data) => {
-    if (err) {
-      fs.readFile(path.join(__dirname, 'public', 'error.html'), (err, data) => {
-        if(err) {
-          res.writeHead(500);
-          res.end('Error');
-        } else {
-          res.writeHead(200, {
-            'Content-Type': 'text/html'
-          });
-          res.end(data);
-        }
-        
-      })
-    } else {
-      res.writeHead(200, {
-        'Content-Type': contentType
-      });
-      res.end(data)
-    }
-  })
-});
+  const images = await fsPromises.readdir(`${docsDirPath}${sectionDirName}`);
 
-const PORT = process.env.PORT || 3000;
+  const mapsCatalog = await fsPromises.readdir(
+    `${docsDirPath}${sectionDirName}/Maps`
+  );
+  const topicsCatalog = await fsPromises.readdir(
+    `${docsDirPath}${sectionDirName}/Topics`
+  );
+  const mapsFile = await fsPromises.readFile(
+    path.normalize(`${docsDirPath}${sectionDirName}/Maps/${mapsCatalog[0]}`)
+  );
 
-server.listen(PORT, () => {
-  console.log(`Server has been started on ${PORT}... `)
-})
+  sectionData.topics = await topicsCatalog.reduce(async (acc, fileName) => {
+    const topicFile = await fsPromises.readFile(
+      path.normalize(`${docsDirPath}${sectionDirName}/Topics/${fileName}`)
+    );
+    const topicData = JSON.parse(
+      convert.xml2json(topicFile, { compact: true, spaces: 4 })
+    );
+    return Promise.resolve([...(await acc), topicData.topic]);
+  }, Promise.resolve([]));
+
+  const mapsData = convert.xml2json(mapsFile, { compact: true, spaces: 4 });
+  sectionData.maps = JSON.parse(mapsData).map.topicref;
+  return sectionData;
+}
+
+const getItemMeta = (dirName) => {
+  return DOCS_META.find(({ dir }) => dirName.includes(dir));
+}
+
+const docsDirPath = `${__dirname}/docs/`;
+const searchPath = async () => {
+
+  try {
+    const rootDir = await fsPromises.readdir(docsDirPath);
+
+    const siteData = await rootDir.reduce(async (acc, dirName) => {
+      const itemMeta = getItemMeta(dirName);
+      if(!itemMeta) return acc;
+      const { title, field } = itemMeta;
+      const data = await generateSectionData(dirName);
+      return { ...await acc, [field]: { title, data }}
+
+    }, Promise.resolve({}));
+   await fsPromises.writeFile("data/data.json", JSON.stringify(siteData));
+   return siteData;
+  } catch (err) {
+    console.error(err);
+    const cacheData = await fsPromises.readFile(`${__dirname}/data/data.json`);
+    return JSON.parse(cacheData)
+  }
+};
+const getData = async () => {
+  const data = await searchPath();
+  // console.log(data)
+}
+
+getData();

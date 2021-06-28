@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.194+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как авторизоваться в приложении?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как авторизоваться в приложении?</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">При первом входе в приложение пользователь должен указать корпоративную почту. На нее будет отправлен одноразовый пароль. </text><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt; color:#172b4d; background-color:#ffffff;" translate="true">Авторизация в приложении сохраняется</text><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">, в</text><text styleclass="Normal (Web)" translate="true"> дальнейшем вводить почту и пароль не потребуется. Но если пользователь воспользуется опцией «Выйти», тогда при следующем входе в приложение ему снова понадобится указать корпоративную почту и ввести одноразовый пароль. </text></para>
+  </body>
+</topic>

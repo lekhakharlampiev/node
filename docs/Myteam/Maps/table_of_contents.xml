@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="441735227898030" build="ALL" modified="2020-12-08T08:37:52.114Z" icon="0" href="IDH_1">
+    <caption translate="true">Topic 1</caption>
+    <topicref type="topic" id="441733888523172" build="ALL" modified="2020-12-08T08:37:52.121Z" icon="0" href="IDH_2">
+      <caption translate="true">Корпоративный мессенджер Myteam</caption>
+    </topicref>
+    <topicref type="topic" id="441732498516358" build="ALL" modified="2020-12-08T08:37:52.122Z" icon="0" href="Вопросыиответы">
+      <caption translate="true">Вопросы и ответы</caption>
+    </topicref>
+    <topicref type="topic" id="441733078301438" build="ALL" modified="2020-12-08T08:37:52.155Z" icon="0" href="Оглавление">
+      <caption translate="true">Оглавление</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441734833963034" build="ALL" modified="2020-12-08T08:37:52.159Z" icon="0" href="Установка_и_авторизация">
+    <caption translate="true">Установка и авторизация</caption>
+    <topicref type="topic" id="441732951090234" build="ALL" modified="2020-12-08T08:37:52.178Z" icon="0" href="Bookmark3">
+      <caption translate="true">Откуда можно скачать приложение?</caption>
+    </topicref>
+    <topicref type="topic" id="441734900778514" build="ALL" modified="2020-12-08T08:37:52.193Z" icon="0" href="Bookmark4">
+      <caption translate="true">Как авторизоваться в приложении?</caption>
+    </topicref>
+    <topicref type="topic" id="441734557911622" build="ALL" modified="2020-12-08T08:37:52.209Z" icon="0" href="Bookmark5">
+      <caption translate="true">Что делать, если одноразовый пароль не пришел?</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441735368164802" build="ALL" modified="2020-12-08T08:37:52.212Z" icon="0" href="Работоспособность_приложения">
+    <caption translate="true">Работоспособность приложения</caption>
+    <topicref type="topic" id="441733490988372" build="ALL" modified="2020-12-08T08:37:52.222Z" icon="0" href="Bookmark7">
+      <caption translate="true">Приложение зависло</caption>
+      <topicref type="topic" id="441734127256530" build="ALL" modified="2020-12-08T08:37:52.237Z" icon="0" href="Bookmark8">
+        <caption translate="true">Windows</caption>
+        <topicref type="topic" id="441732155729122" build="ALL" modified="2020-12-08T08:37:52.252Z" icon="0" href="Bookmark9">
+          <caption translate="true">MacOS</caption>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="441732121860840" build="ALL" modified="2020-12-08T08:37:52.264Z" icon="0" href="Bookmark10">
+      <caption translate="true">Другие проблемы с приложением</caption>
+      <topicref type="topic" id="44172052484251" build="ALL" modified="2020-12-08T08:37:52.295Z" icon="0" href="Bookmark11">
+        <caption translate="true">Версия для десктопа</caption>
+      </topicref>
+      <topicref type="topic" id="441735646187525" build="ALL" modified="2020-12-08T08:37:52.312Z" icon="0" href="Bookmark12">
+        <caption translate="true">Мобильная версия</caption>
+      </topicref>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441733036334658" build="ALL" modified="2020-12-08T08:37:52.315Z" icon="0" href="Контакты_и_переписка">
+    <caption translate="true">Контакты и переписка</caption>
+    <topicref type="topic" id="441734729194054" build="ALL" modified="2020-12-08T08:37:52.327Z" icon="0" href="Bookmark14">
+      <caption translate="true">Почему в списке контактов отображаются не все коллеги?</caption>
+    </topicref>
+    <topicref type="topic" id="44174773928653" build="ALL" modified="2020-12-08T08:37:52.343Z" icon="0" href="Bookmark15">
+      <caption translate="true">Как вернуть в список контактов заблокированного пользователя?</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441735682007201" build="ALL" modified="2020-12-08T08:37:52.345Z" icon="0" href="Чаты">
+    <caption translate="true">Чаты</caption>
+    <topicref type="topic" id="441732164568225" build="ALL" modified="2020-12-08T08:37:52.355Z" icon="0" href="Bookmark19">
+      <caption translate="true">Чем отличаются публичный и приватный чат?</caption>
+    </topicref>
+    <topicref type="topic" id="44174168244494" build="ALL" modified="2020-12-08T08:37:52.370Z" icon="0" href="Bookmark20">
+      <caption translate="true">Как найти чат, если он был скрыт из списка чатов?</caption>
+    </topicref>
+    <topicref type="topic" id="441733236908562" build="ALL" modified="2020-12-08T08:37:52.389Z" icon="0" href="Bookmark21">
+      <caption translate="true">Как вернуть участника, которого удалили из чата?</caption>
+    </topicref>
+    <topicref type="topic" id="441735033728209" build="ALL" modified="2020-12-08T08:37:52.400Z" icon="0" href="Bookmark22">
+      <caption translate="true">Доступна ли история переписки, если пользователь вышел и вернулся в чат?</caption>
+    </topicref>
+    <topicref type="topic" id="441732288101597" build="ALL" modified="2020-12-08T08:37:52.418Z" icon="0" href="Bookmark23">
+      <caption translate="true">Все сообщения в чате поступают от имени чата. Как это исправить?</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441734745720459" build="ALL" modified="2020-12-08T08:37:52.421Z" icon="0" href="Поиск">
+    <caption translate="true">Поиск</caption>
+    <topicref type="topic" id="441733121562454" build="ALL" modified="2020-12-08T08:37:52.431Z" icon="0" href="Bookmark25">
+      <caption translate="true">Почему не получается найти пользователя?</caption>
+    </topicref>
+    <topicref type="topic" id="441733486970792" build="ALL" modified="2020-12-08T08:37:52.443Z" icon="0" href="Bookmark26">
+      <caption translate="true">Почему заблокированные контакты отображаются в результатах поиска?</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441734073951907" build="ALL" modified="2020-12-08T08:37:52.446Z" icon="0" href="Звонки">
+    <caption translate="true">Звонки</caption>
+    <topicref type="topic" id="441732072499950" build="ALL" modified="2020-12-08T08:37:52.461Z" icon="0" href="Bookmark28">
+      <caption translate="true">Как сделать групповой звонок?</caption>
+    </topicref>
+    <topicref type="topic" id="441734618900841" build="ALL" modified="2020-12-08T08:37:52.473Z" icon="0" href="Почемузвонкинеработаютчерезпрокси">
+      <caption translate="true">Почему звонки не работают через прокси?</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441732722848673" build="ALL" modified="2020-12-08T08:37:52.476Z" icon="0" href="Уведомления_в_мобильной">
+    <caption translate="true">Уведомления в мобильной версии</caption>
+    <topicref type="topic" id="441735378734558" build="ALL" modified="2020-12-08T08:37:52.486Z" icon="0" href="Bookmark31">
+      <caption translate="true">Не приходят уведомления и нет звука</caption>
+      <topicref type="topic" id="441732825041236" build="ALL" modified="2020-12-08T08:37:52.514Z" icon="0" href="Bookmark32">
+        <caption translate="true">Xiaomi</caption>
+      </topicref>
+      <topicref type="topic" id="441735460108037" build="ALL" modified="2020-12-08T08:37:52.544Z" icon="0" href="Bookmark33">
+        <caption translate="true">Meizu</caption>
+      </topicref>
+      <topicref type="topic" id="44171814229329" build="ALL" modified="2020-12-08T08:37:52.565Z" icon="0" href="Bookmark34">
+        <caption translate="true">Huawei</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="441735096882985" build="ALL" modified="2020-12-08T08:37:52.588Z" icon="0" href="Bookmark35">
+      <caption translate="true">Уведомления приходят, но нет звука</caption>
+    </topicref>
+    <topicref type="topic" id="441731554347551" build="ALL" modified="2020-12-08T08:37:52.602Z" icon="0" href="Bookmark36">
+      <caption translate="true">Что делать, если работа с настройками не помогла?</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441733006029386" build="ALL" modified="2020-12-08T08:37:52.605Z" icon="0" href="Другие_возможности">
+    <caption translate="true">Другие возможности</caption>
+    <topicref type="topic" id="441735481728429" build="ALL" modified="2020-12-08T08:37:52.615Z" icon="0" href="Bookmark38">
+      <caption translate="true">Есть ли ограничения по размеру пересылаемых файлов?</caption>
+    </topicref>
+    <topicref type="topic" id="441735151675823" build="ALL" modified="2020-12-08T08:37:52.625Z" icon="0" href="Bookmark39">
+      <caption translate="true">Есть ли проверка орфографии?</caption>
+    </topicref>
+    <topicref type="topic" id="441735713673183" build="ALL" modified="2020-12-08T08:37:52.639Z" icon="0" href="Bookmark40">
+      <caption translate="true">Где посмотреть список горячих клавиш?</caption>
+    </topicref>
+  </topicref>
+  <topicref type="topic" id="441734297004411" build="ALL" modified="2020-12-08T08:37:52.642Z" icon="0" href="Боты">
+    <caption translate="true">Боты</caption>
+    <topicref type="topic" id="441733573753072" build="ALL" modified="2020-12-08T08:37:52.654Z" icon="0" href="Bookmark42">
+      <caption translate="true">Где найти описание и примеры ботов?</caption>
+    </topicref>
+    <topicref type="topic" id="441735426096885" build="ALL" modified="2020-12-08T08:37:52.665Z" icon="0" href="Bookmark43">
+      <caption translate="true">Стикер-бот выдает ошибки размера</caption>
+    </topicref>
+  </topicref>
+</map>

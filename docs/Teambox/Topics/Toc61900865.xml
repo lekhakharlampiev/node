@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-06-25T15:01:49.552+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Шаг 1. Перенос и распаковка архива</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Шаг 1. Перенос и распаковка архива</text></para>
+    </header>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#115;&#46;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List Paragraph" style="text-indent:-24px; font-family:&apos;Times New Roman&apos;; font-size:12pt; color:#000000;">
+      <li styleclass="List Paragraph" style="text-indent:-24px;"><text styleclass="List Paragraph" style="font-family:Arial; background-color:#ffff00;" translate="true">Перенесите архив на сервер, например по SCP:</text></li>
+    </list>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-family:Arial; background-color:#ffff00;" translate="true"> &#160; &#160;</text></para>
+    <para styleclass="Normal" style="margin-top:2px; margin-right:296px; margin-bottom:2px; margin-left:57px; line-height:1.50; border-color:#000000; border-style:single; padding:5px;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; background-color:#ffff00;" translate="true">scp release-VER.tar user@ip:</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#115;&#46;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="List Paragraph" style="text-indent:-24px; font-family:&apos;Times New Roman&apos;; font-size:12pt; color:#000000;">
+      <li styleclass="List Paragraph" style="text-indent:-24px;"><text styleclass="List Paragraph" style="font-family:Arial; background-color:#ffff00;" translate="true">На сервере, в домашней директории пользователя, от имени которого выполняли копирование, появится архив. Разархивируйте его:</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal" style="margin-right:287px; margin-left:19px;"><text styleclass="Normal" style="font-family:Arial; background-color:#ffff00;" translate="true"> &#160; &#160; &#160; </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; background-color:#ffff00;" translate="true"> tar -xf release-VER.tar</text></para>
+  </body>
+</topic>

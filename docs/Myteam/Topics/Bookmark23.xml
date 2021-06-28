@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.418+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Все сообщения в чате поступают от имени чата. Как это исправить?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Все сообщения в чате поступают от имени чата. Как это исправить?</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Причина в том, что чат создан как канал, а не как группа. Чтобы убедиться в этом, откройте информацию о чате (</text><image src="MYTEAM~1_img2.jpg" scale="56.00%" styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;"></image><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true"> в правом верхнем углу) и обратите внимание на опции. Например, у канала опция будет называться </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Настройки канала</text><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">, а не </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Настройки группы</text><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">. Переделать канал в группу не получится.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.390+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Как вернуть участника, которого удалили из чата?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Как вернуть участника, которого удалили из чата?</text></para>
+    </header>
+    <list id="8" type="ol" listtype="decimal" formatstring="&#37;&#115;&#46;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:&apos;Times New Roman&apos;; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Нажмите на иконку </text><image src="MYTEAM~1_img2.jpg" scale="56.00%" styleclass="Normal" style="font-family:Arial; font-size:10pt;"></image><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true"> в правом верхнем углу приложения и выберите раздел </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Заблокированные</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Нажмите на крестик напротив нужного пользователя. </text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Повторно добавьте этого пользователя в чат.</text></li>
+    </list>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Вновь добавленному пользователю недоступна истории переписки.</text></para>
+  </body>
+</topic>
