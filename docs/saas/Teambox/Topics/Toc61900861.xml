@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-06-25T15:01:49.430+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Технические требования</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Технические требования</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Демоверсия облачного хранилища Teambox устанавливается на один сервер следующей конфигурации:</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal (Web)" style="text-indent:-24px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal (Web)" style="text-indent:-24px; margin-left:48px;"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">8 физических ядер (2.6-3.0+ GHz), серверный процессор класса Intel Xeon. Возможно использование десктопных процессоров класса не ниже Intel Core i7.</text></li>
+    </list>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-style:italic;" translate="true">Примечание. </text><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Рекомендуется отключить следующие режимы процессора: </text><text styleclass="Strong" style="font-family:Arial; font-weight:normal;" translate="true">HyperThreading и</text><text styleclass="Normal (Web)" style="font-family:Arial; font-weight:bold;" translate="true"> </text><text styleclass="Strong" style="font-family:Arial; font-weight:normal;" translate="true">C-State</text><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true"> (управляют энергосбережением).</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal (Web)" style="text-indent:-24px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal (Web)" style="text-indent:-24px; margin-left:48px;"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">16 Gb RAM</text></li>
+      <li styleclass="Normal (Web)" style="text-indent:-24px; margin-left:48px;"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">200 Gb SSD</text></li>
+    </list>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Это рекомендуемый объем диска для демоверсии (возможно, для рабочей версии ПО потребуется даже меньше, примерно 100-120 Gb).</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal (Web)" style="text-indent:-24px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal (Web)" style="text-indent:-24px; margin-left:48px;"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">ОС GNU/Linux</text></li>
+    </list>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Рекомендуется использовать популярные дистрибутивы Linux: Debian, Ubuntu 18.04, CentOS 7.7/8.1. Возможна тестовая установка на операционные системы из реестра российского ПО: AltLinux, AstraLinux, Calculate Linux.</text></para>
+    <para styleclass="Normal (Web)"></para>
+  </body>
+</topic>

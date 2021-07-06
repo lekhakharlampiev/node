@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.666+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Стикер-бот выдает ошибки размера</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Стикер-бот выдает ошибки размера</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:9pt;" translate="true">Учитывайте ограничения по размерам картинки:</text></para>
+    <list id="15" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:9pt;" translate="true">минимальная высота — 122 пикселя;</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:9pt;" translate="true">минимальная ширина — 122 пикселя;</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:9pt;" translate="true">максимальный размер файла — 3 Мб.</text></li>
+    </list>
+    <para styleclass="Normal (Web)"></para>
+    <para styleclass="Normal (Web)" style="margin-bottom:16px;"><br/></para>
+  </body>
+</topic>

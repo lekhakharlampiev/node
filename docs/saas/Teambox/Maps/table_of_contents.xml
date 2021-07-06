@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="443727139869276" build="ALL" modified="2021-06-25T15:01:49.340Z" icon="0" href="IDH_1">
+    <caption translate="true">Topic 1</caption>
+  </topicref>
+  <topicref type="topic" id="443725924723741" build="ALL" modified="2021-06-25T15:01:49.346Z" icon="0" href="Toc61900856">
+    <caption translate="true">Инструкция по установке демоверсии облачного хранилища Teambox</caption>
+  </topicref>
+  <topicref type="topic" id="443727789280736" build="ALL" modified="2021-06-25T15:01:49.382Z" icon="0" href="IDH_6">
+    <caption translate="true">© Mail.ru для бизнеса, 2020 г. Все права защищены.­</caption>
+    <topicref type="topic" id="443725255248847" build="ALL" modified="2021-06-25T15:01:49.398Z" icon="0" href="Toc61900859">
+      <caption translate="true">Описание</caption>
+    </topicref>
+    <topicref type="topic" id="443728327740659" build="ALL" modified="2021-06-25T15:01:49.403Z" icon="0" href="Toc61900860">
+      <caption translate="true">Требования</caption>
+      <topicref type="topic" id="443726707533192" build="ALL" modified="2021-06-25T15:01:49.429Z" icon="0" href="Toc61900861">
+        <caption translate="true">Технические требования</caption>
+      </topicref>
+      <topicref type="topic" id="443725378109546" build="ALL" modified="2021-06-25T15:01:49.468Z" icon="0" href="Toc61900862">
+        <caption translate="true">Требования к ПО и ОС на сервере</caption>
+      </topicref>
+      <topicref type="topic" id="44372434721854" build="ALL" modified="2021-06-25T15:01:49.498Z" icon="0" href="Toc61900863">
+        <caption translate="true">Предварительные условия для установки</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="44372229499505" build="ALL" modified="2021-06-25T15:01:49.519Z" icon="0" href="Toc61900864">
+      <caption translate="true">Установка</caption>
+      <topicref type="topic" id="443727220837048" build="ALL" modified="2021-06-25T15:01:49.551Z" icon="0" href="Toc61900865">
+        <caption translate="true">Шаг 1. Перенос и распаковка архива</caption>
+      </topicref>
+      <topicref type="topic" id="443725731459920" build="ALL" modified="2021-06-25T15:01:49.704Z" icon="0" href="Шаг2.Запускмастераустановки">
+        <caption translate="true">Шаг 2. Запуск мастера установки</caption>
+      </topicref>
+      <topicref type="topic" id="44374641082992" build="ALL" modified="2021-06-25T15:01:49.776Z" icon="0" href="Toc61900866">
+        <caption translate="true">Шаг 2. Указание NTP- и DNS-серверов.</caption>
+      </topicref>
+      <topicref type="topic" id="443725500294406" build="ALL" modified="2021-06-25T15:01:50.032Z" icon="0" href="Toc61900867">
+        <caption translate="true">Шаг 3. Настройка домена</caption>
+      </topicref>
+      <topicref type="topic" id="443724309487444" build="ALL" modified="2021-06-25T15:01:50.151Z" icon="0" href="Toc61900868">
+        <caption translate="true">Шаг 4. Проверка и установка</caption>
+      </topicref>
+      <topicref type="topic" id="443728183787739" build="ALL" modified="2021-06-25T15:01:50.211Z" icon="0" href="Toc61900869">
+        <caption translate="true">Шаг 5. Завершение установки и переход в панель управления</caption>
+      </topicref>
+    </topicref>
+  </topicref>
+</map>

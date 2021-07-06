@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-06-25T15:01:50.153+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Шаг 4. Проверка и установка</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Шаг 4. Проверка и установка</text></para>
+    </header>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Отобразится страница со всей введенной информацией. Если есть ошибки, исправьте их. Если данные верны, можно начинать установку.</text></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">На странице отобразится процесс установки:</text></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"><image src="TEAMBO~1_img7.png" scale="55.00%" styleclass="Normal (Web)" style="font-family:Arial;"></image></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Дождитесь, когда по всем параметрам отобразится «Установлено» / «Успешно».</text></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"><image src="TEAMBO~1_img8.png" scale="56.00%" styleclass="Normal (Web)" style="font-family:Arial;"></image></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"></para>
+  </body>
+</topic>

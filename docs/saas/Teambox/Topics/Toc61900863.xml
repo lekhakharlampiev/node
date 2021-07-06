@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-06-25T15:01:49.500+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Предварительные условия для установки</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Предварительные условия для установки</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Перед началом установки:</text></para>
+    <list id="8" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">До установки должен быть определен </text><text styleclass="Strong" style="font-family:Arial; font-weight:normal;" translate="true">домен,</text><text styleclass="Normal" style="font-family:Arial;" translate="true"> на котором будет работать облачное хранилище. Этот домен должен обслуживаться DNS-сервером, до которого у вас есть доступ для конфигурирования.</text></li>
+      <li styleclass="List Paragraph" style="text-indent:-24px;"><text styleclass="List Paragraph" style="font-family:Arial;" translate="true">Необходимо иметь сертификат и приватный ключ стандарта X.509 для обслуживания доменов вида </text><text styleclass="List Paragraph" style="font-family:&apos;Courier New&apos;;" translate="true">*.example.com</text><text styleclass="List Paragraph" style="font-family:Arial;" translate="true"> и </text><text styleclass="List Paragraph" style="font-family:&apos;Courier New&apos;;" translate="true">*.cloud.example.com.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">Также вы должны знать адреса внутренних NTP-серверов. Если таковых не имеется, то необходимо либо запустить его в вашей сети, либо предоставить сетевой доступ до внешних NTP-серверов.</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-top:7px; margin-bottom:7px; margin-left:48px;"></para>
+  </body>
+</topic>

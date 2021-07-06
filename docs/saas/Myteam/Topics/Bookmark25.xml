@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.432+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Почему не получается найти пользователя?</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Почему не получается найти пользователя?</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Например, при добавлении в группу или при пересылке сообщения.</text></para>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Причина в том, что его еще нет списке контактов. Сначала напишите ему личное сообщение (после этого он автоматически добавится в список контактов), а затем добавьте в группу или перешлите сообщение.</text></para>
+  </body>
+</topic>

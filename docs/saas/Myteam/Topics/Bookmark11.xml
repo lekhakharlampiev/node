@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2020-12-08T08:37:52.295+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Версия для десктопа</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Версия для десктопа</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Если пользователь авторизован:</text></para>
+    <list id="9" type="ol" listtype="decimal" formatstring="&#37;&#115;&#46;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:&apos;Times New Roman&apos;; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">В приложении откройте </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Настройки</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true"> → </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Напишите нам</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Нажмите на </text><text styleclass="Strong" style="font-family:Arial; font-size:10pt;" translate="true">Получить архив логов</text><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Дождитесь всплывающего уведомления об успешной загрузке и перейдите в папку, в которую сохранились файлы.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Отправьте файлы в службу поддержки.</text></li>
+    </list>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial; font-size:10pt;" translate="true">Если пользователь не авторизован (не смог авторизоваться):</text></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="&#37;&#115;&#46;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:&apos;Times New Roman&apos;; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Откройте проводник операционной системы.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Найдите папку AppData/Roaming/Mail.ru/Myteam.</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial; font-size:10pt;" translate="true">Заархивируйте папку logs и отправьте архив в службу поддержки.</text></li>
+    </list>
+  </body>
+</topic>

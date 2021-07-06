@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-06-25T15:01:49.520+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Установка</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Установка</text></para>
+    </header>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Развертывание приложения происходит автоматически, с использованием контейнеризации.</text></para>
+    <para styleclass="Normal (Web)"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">Состав поставляемого ПО для установки:</text></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px; font-family:Symbol; font-size:10pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">архив (контейнер или пакет) с программой-установщиком;</text></li>
+      <li styleclass="Normal" style="text-indent:-24px; margin-top:7px; margin-bottom:7px; margin-left:48px;"><text styleclass="Normal" style="font-family:Arial;" translate="true">реестр образов для контейнеров (поставляется в архиве).</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-top:7px; margin-bottom:7px; margin-left:48px;"></para>
+  </body>
+</topic>

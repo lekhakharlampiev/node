@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-06-25T15:01:49.398+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Описание</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Описание</text></para>
+    </header>
+    <para styleclass="No Spacing" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.00; background-color:transparent; white-space:normal; page-break-inside:auto; page-break-after:auto; border:none; tabstops:none;"><text styleclass="No Spacing" style="font-family:Arial;" translate="true">Teambox — это облачное хранилище, размещаемое на сервера компании и предназначенное для рабочих групп внутри компании. Сотрудники имеют о</text><text styleclass="No Spacing" style="font-family:Arial; color:#333333; background-color:#ffffff;" translate="true">бщий доступ к рабочим файлам и архивам компании для совместной работы.</text></para>
+  </body>
+</topic>

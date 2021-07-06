@@ -12,6 +12,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "glob": "^7.1.7",
+    "transliteration": "^2.2.0",
     "xml-js": "^1.6.11",
     "xml-parser": "^1.2.1",
     "xml2js": "^0.4.23"

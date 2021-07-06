@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" modified="2021-06-25T15:01:50.213+03:00" lasteditedby="k.yaroshevich" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Шаг 5. Завершение установки и переход в панель управления</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Шаг 5. Завершение установки и переход в панель управления</text></para>
+    </header>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"><text styleclass="Normal (Web)" style="font-family:Arial;" translate="true">По завершению установки отобразится возможность перехода в панель управления (панель администратора), где вы сможете добавить пользователей и начать работу с сервисом.</text></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"><image src="TEAMBO~1_img9.png" scale="56.00%" styleclass="Normal (Web)" style="font-family:Arial;"></image></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"></para>
+    <para styleclass="Normal (Web)" style="tabstops:61px left,122px left,183px left,244px left,305px left,366px left,427px left,489px left,550px left,611px left,672px left,733px left,794px left,855px left,916px left,977px left ;"></para>
+  </body>
+</topic>
