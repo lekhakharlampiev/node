@@ -4,7 +4,6 @@ const path = require("path");
 const convert = require("xml-js");
 const inspect = require("util").inspect;
 const { transliterate, slugify } = require("transliteration");
-const generateSectionData = require("./utils/genereteSectionData");
 
 const DOCS_META = [
   {
@@ -24,9 +23,58 @@ const TOPICS_IMG_PATH = `${__dirname}/static/images/topics/`;
 
 const EXTENSION_IMG_REGEXP = /\.(jpe?g|png|gif|webp|bmp)$/;
 
+const generateSectionData = async (sectionDirName) => {
+  const sectionData = {
+    maps: [],
+    topics: [],
+  };
+
+  const fileNames = await fsPromises.readdir(`${DOCS_PATH}${sectionDirName}`);
+
+  // const getWriteInStaticDirCollection = (names) =>
+  //   names
+  //     .filter((name) => EXTENSION_IMG_REGEXP.test(name))
+  //     .map(async (name) => {
+  //       const file = await fsPromises.readFile(`${DOCS_PATH}${sectionDirName}/${name}`);
+  //       return fsPromises.writeFile(`${TOPICS_IMG_PATH}${name}`, file);
+  //     });
+
+  // // запись изображений в статическую дирректорию
+  // Promise.all(getWriteInStaticDirCollection(fileNames));
+
+  const mapsCatalog = await fsPromises.readdir(
+    `${DOCS_PATH}${sectionDirName}/Maps`
+  );
+  const topicsCatalog = await fsPromises.readdir(
+    `${DOCS_PATH}${sectionDirName}/Topics`
+  );
+  const mapsFile = await fsPromises.readFile(
+    path.normalize(`${DOCS_PATH}${sectionDirName}/Maps/${mapsCatalog[0]}`)
+  );
+
+  sectionData.topics = await topicsCatalog.reduce(async (acc, fileName) => {
+    const topicHrefName = fileName.replace(/\.(xml)$/, "");
+    const topicFile = await fsPromises.readFile(
+      path.normalize(`${DOCS_PATH}${sectionDirName}/Topics/${fileName}`)
+    );
+    const testFile = await fsPromises.readFile(
+      path.normalize(`${DOCS_PATH}${sectionDirName}/Topics/${fileName}`), 'utf8'
+    );
+    const topicData = JSON.parse(
+      convert.xml2json(topicFile, { compact: true, spaces: 4 })
+    );
+    // добавление дополнительного аттрибута для связи со списком maps
+    topicData.topic._attributes.href = topicHrefName;
+    return Promise.resolve([...(await acc), topicData.topic]);
+  }, Promise.resolve([]));
+
+  const mapsData = convert.xml2json(mapsFile, { compact: true, spaces: 4 });
+  sectionData.maps = JSON.parse(mapsData).map.topicref;
+  return sectionData;
+};
 
 const getItemMeta = (dirName) => {
-  return DOCS_META.find(({ dir }) => dirName.includes(dir));
+  return { dir: dirName, title: dirName, field: slugify(dirName, { separator: '_' }) }
 };
 
 const generateDataForXML = async () => {
@@ -38,9 +86,10 @@ const generateDataForXML = async () => {
       const siteData = await dataDir.reduce(async (acc, dirName) => {
         const accData = await acc;
         const itemMeta = getItemMeta(dirName);
+        console.log(itemMeta);
         if (!itemMeta) return accData;
         const { title, field } = itemMeta;
-        const data = await generateSectionData.generateSectionData(`${dir}/${dirName}`);
+        const data = await generateSectionData(`${dir}/${dirName}`);
         return { ...accData, [field]: { title, data } };
       }, Promise.resolve({}));
       await fsPromises.writeFile(
@@ -61,7 +110,6 @@ const generateDataForXML = async () => {
 
 const createPage = async () => {
   const data = await generateDataForXML();
-  console.log(data);
   const topicLinks = [];
   // const sideBar = Object.keys(data).map((key) => {
   //   const item = data[key];
